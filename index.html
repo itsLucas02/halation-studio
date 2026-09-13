@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Halation — A studio for considered digital work</title>
+  <meta name="description" content="Halation is a small design studio building brands and interfaces for teams who care about the details.">
+  <meta name="author" content="Halation Studio">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f7f6f3" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#100f0e" media="(prefers-color-scheme: dark)">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Halation — A studio for considered digital work">
+  <meta property="og:description" content="A small design studio building brands and interfaces for teams who care about the details.">
+  <meta property="og:locale" content="en">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/newsreader-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="theme.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="ambient" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header" id="site-header">
+    <div class="shell header-inner">
+      <a class="wordmark" href="#top">
+        <span class="wordmark__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><rect x="3.2" y="3" width="3.2" height="18" rx="0.8"/><rect x="17.6" y="3" width="3.2" height="18" rx="0.8"/><rect x="3.2" y="10.4" width="17.6" height="3.2" rx="0.8"/></svg>
+        </span>
+        <span class="wordmark__name">Halation</span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#work">Work</a></li>
+          <li><a href="#approach">Approach</a></li>
+          <li><a href="#studio">Studio</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn theme-toggle" type="button" data-theme-toggle aria-label="Switch colour theme">
+          <svg class="icon icon--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.2 5.2l2.1 2.1M16.7 16.7l2.1 2.1M18.8 5.2l-2.1 2.1M7.3 16.7l-2.1 2.1"/></svg>
+          <svg class="icon icon--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.2 8.2 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/></svg>
+        </button>
+        <a class="btn btn--primary header-cta" href="#contact">Start a project</a>
+        <button class="icon-btn menu-btn" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+          <svg class="icon icon--menu" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 7.5h17M3.5 12h17M3.5 16.5h17"/></svg>
+          <svg class="icon icon--close" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <nav aria-label="Mobile">
+      <ul class="mobile-list">
+        <li><a href="#work"><span class="mono">01</span> Work</a></li>
+        <li><a href="#approach"><span class="mono">02</span> Approach</a></li>
+        <li><a href="#studio"><span class="mono">03</span> Studio</a></li>
+        <li><a href="#contact"><span class="mono">04</span> Contact</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn--primary mobile-menu__cta" href="#contact">Start a project</a>
+  </div>
+
+  <main id="main">
+    <span id="top"></span>
+
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="shell hero-grid">
+        <div class="hero-copy" data-reveal>
+          <p class="hero-meta mono">Independent design studio · Lisbon</p>
+          <h1 class="hero-title" id="hero-title">Design that holds up to a <em>second look</em>.</h1>
+          <p class="hero-sub">Halation is a three-person studio building brands and interfaces for teams who care about the details.</p>
+          <div class="hero-actions">
+            <a class="btn btn--primary" href="#contact">Start a project</a>
+            <a class="btn btn--ghost" href="#work">See selected work</a>
+          </div>
+        </div>
+
+        <figure class="hero-figure" data-reveal>
+          <div class="duo duo--hero">
+            <img src="assets/hero.webp" width="1600" height="1200" alt="A pour-over coffee set up on a work surface, photographed in low light." fetchpriority="high" decoding="async">
+          </div>
+          <figcaption class="mono">Currently: identity system for Meridian, in progress.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="section work" id="work" aria-labelledby="work-title">
+      <div class="shell">
+        <div class="section-head" data-reveal>
+          <h2 class="section-title" id="work-title">Selected work</h2>
+          <p class="section-note">Four projects from the last two years, across brand, product and editorial.</p>
+        </div>
+
+        <div class="work-grid">
+          <div class="work-col">
+            <article class="project project--tall" data-reveal>
+              <a class="project__link" href="#contact">
+                <div class="duo duo--p">
+                  <img src="assets/work-meridian.webp" width="1200" height="1500" alt="A concrete building facade with a single lit window at dusk." loading="lazy" decoding="async">
+                </div>
+                <div class="project__meta">
+                  <span class="mono project__index">01</span>
+                  <h3 class="project__title">Meridian</h3>
+                  <p class="project__desc">Climate analytics, rebuilt around a single question.</p>
+                  <span class="project__tags mono">Brand · Web</span>
+                </div>
+              </a>
+            </article>
+
+            <article class="project" data-reveal>
+              <a class="project__link" href="#contact">
+                <div class="duo duo--p">
+                  <img src="assets/work-cadence.webp" width="1200" height="1500" alt="A grid of glazed roof tiles seen from directly above." loading="lazy" decoding="async">
+                </div>
+                <div class="project__meta">
+                  <span class="mono project__index">03</span>
+                  <h3 class="project__title">Cadence</h3>
+                  <p class="project__desc">Scheduling that respects attention.</p>
+                  <span class="project__tags mono">Product · Design system</span>
+                </div>
+              </a>
+            </article>
+          </div>
+
+          <div class="work-col work-col--offset">
+            <article class="project" data-reveal>
+              <a class="project__link" href="#contact">
+                <div class="duo duo--p">
+                  <img src="assets/work-fieldnote.webp" width="1500" height="1125" alt="A conifer forest dissolving into morning fog." loading="lazy" decoding="async">
+                </div>
+                <div class="project__meta">
+                  <span class="mono project__index">02</span>
+                  <h3 class="project__title">Fieldnote</h3>
+                  <p class="project__desc">A publishing platform for field researchers.</p>
+                  <span class="project__tags mono">Editorial · Product</span>
+                </div>
+              </a>
+            </article>
+
+            <article class="project project--tall" data-reveal>
+              <a class="project__link" href="#contact">
+                <div class="duo duo--p">
+                  <img src="assets/work-vellum.webp" width="1500" height="1125" alt="A timber jetty receding into still water." loading="lazy" decoding="async">
+                </div>
+                <div class="project__meta">
+                  <span class="mono project__index">04</span>
+                  <h3 class="project__title">Vellum</h3>
+                  <p class="project__desc">A legal-tech brand with a human register.</p>
+                  <span class="project__tags mono">Brand · Identity</span>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPROACH -->
+    <section class="section approach" id="approach" aria-labelledby="approach-title">
+      <div class="shell">
+        <h2 class="section-title" id="approach-title" data-reveal>How we work</h2>
+        <ol class="principles">
+          <li class="principle" data-reveal>
+            <span class="mono principle__num">01</span>
+            <h3 class="principle__title">Write it down first</h3>
+            <p class="principle__body">We start with the sentence the work has to earn. If it cannot be said plainly, the design is not ready to be drawn.</p>
+          </li>
+          <li class="principle" data-reveal>
+            <span class="mono principle__num">02</span>
+            <h3 class="principle__title">Fewer, better parts</h3>
+            <p class="principle__body">Restraint is a feature. We remove until what is left carries the meaning on its own, then check that it still reads at a glance.</p>
+          </li>
+          <li class="principle" data-reveal>
+            <span class="mono principle__num">03</span>
+            <h3 class="principle__title">Ship, then sharpen</h3>
+            <p class="principle__body">Nothing is finished on paper. We put work in front of real people early and refine it there, in small, visible steps.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CLIENTS -->
+    <section class="clients" aria-label="Selected clients">
+      <div class="marquee" data-marquee>
+        <ul class="marquee__track">
+          <li class="client"><span class="client__mark" aria-hidden="true">M</span><span class="client__name">Meridian</span></li>
+          <li class="client"><span class="client__mark" aria-hidden="true">F</span><span class="client__name">Fieldnote</span></li>
+          <li class="client"><span class="client__mark" aria-hidden="true">C</span><span class="client__name">Cadence</span></li>
+          <li class="client"><span class="client__mark" aria-hidden="true">V</span><span class="client__name">Vellum</span></li>
+          <li class="client"><span class="client__mark" aria-hidden="true">N</span><span class="client__name">Northwind</span></li>
+          <li class="client"><span class="client__mark" aria-hidden="true">O</span><span class="client__name">Ostend Press</span></li>
+          <li class="client"><span class="client__mark" aria-hidden="true">B</span><span class="client__name">Bramble</span></li>
+          <li class="client"><span class="client__mark" aria-hidden="true">K</span><span class="client__name">Kestrel Labs</span></li>
+        </ul>
+        <ul class="marquee__track" aria-hidden="true">
+          <li class="client"><span class="client__mark">M</span><span class="client__name">Meridian</span></li>
+          <li class="client"><span class="client__mark">F</span><span class="client__name">Fieldnote</span></li>
+          <li class="client"><span class="client__mark">C</span><span class="client__name">Cadence</span></li>
+          <li class="client"><span class="client__mark">V</span><span class="client__name">Vellum</span></li>
+          <li class="client"><span class="client__mark">N</span><span class="client__name">Northwind</span></li>
+          <li class="client"><span class="client__mark">O</span><span class="client__name">Ostend Press</span></li>
+          <li class="client"><span class="client__mark">B</span><span class="client__name">Bramble</span></li>
+          <li class="client"><span class="client__mark">K</span><span class="client__name">Kestrel Labs</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- STUDIO / CAPABILITIES -->
+    <section class="section studio" id="studio" aria-labelledby="studio-title">
+      <div class="shell studio-grid">
+        <div class="studio-intro" data-reveal>
+          <h2 class="section-title" id="studio-title">What we do</h2>
+          <p class="studio-lede">Three disciplines, one team. We take a project from the first sentence to the shipped interface, and we stay close to the work the whole way.</p>
+          <div class="duo duo--studio">
+            <img src="assets/studio.webp" width="1000" height="1250" alt="Framed prints and a hanging coat on the studio wall." loading="lazy" decoding="async">
+          </div>
+        </div>
+
+        <div class="capabilities">
+          <div class="capability" data-reveal>
+            <h3 class="capability__title">Brand &amp; identity</h3>
+            <ul class="capability__list">
+              <li>Identity systems</li>
+              <li>Art direction</li>
+              <li>Naming &amp; voice</li>
+              <li>Print &amp; packaging</li>
+            </ul>
+          </div>
+          <div class="capability" data-reveal>
+            <h3 class="capability__title">Digital product</h3>
+            <ul class="capability__list">
+              <li>Interface design</li>
+              <li>Design systems</li>
+              <li>Prototyping</li>
+              <li>Front-end build</li>
+            </ul>
+          </div>
+          <div class="capability" data-reveal>
+            <h3 class="capability__title">Web &amp; editorial</h3>
+            <ul class="capability__list">
+              <li>Website design</li>
+              <li>Content strategy</li>
+              <li>Type systems</li>
+              <li>Motion &amp; interaction</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section class="section testimonial" aria-label="Client testimonial">
+      <div class="shell">
+        <blockquote class="quote" data-reveal>
+          <p class="quote__body">&#8220;We asked for a website and got a way of talking about ourselves we still use two years later.&#8221;</p>
+          <footer class="quote__cite">
+            <span class="quote__name">Rina Alvarez</span>
+            <span class="quote__role">Head of Product, Cadence</span>
+          </footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact-grid">
+        <div class="contact-copy" data-reveal>
+          <h2 class="contact-title" id="contact-title">Let&rsquo;s make something worth keeping.</h2>
+          <p class="contact-sub">We take on three or four projects a year. Tell us what you are building and we will reply within two working days.</p>
+          <a class="btn btn--primary btn--lg" href="mailto:hello@halation.studio">Start a project</a>
+        </div>
+
+        <div class="contact-side" data-reveal>
+          <p class="contact-label mono">Write to us</p>
+          <div class="contact-email">
+            <a href="mailto:hello@halation.studio">hello@halation.studio</a>
+            <button class="copy-btn" type="button" data-copy="hello@halation.studio" aria-label="Copy email address">
+              <svg class="icon icon--copy" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M15 5.5A1.5 1.5 0 0 0 13.5 4h-8A1.5 1.5 0 0 0 4 5.5v8A1.5 1.5 0 0 0 5.5 15"/></svg>
+              <svg class="icon icon--check" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+            </button>
+          </div>
+          <p class="contact-note mono" data-copy-status aria-live="polite"></p>
+          <dl class="contact-facts">
+            <div><dt>Studio</dt><dd>Rua da Boavista 84, Lisbon</dd></div>
+            <div><dt>New work</dt><dd>Autumn 2026</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div class="footer-brand">
+        <span class="wordmark__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><rect x="3.2" y="3" width="3.2" height="18" rx="0.8"/><rect x="17.6" y="3" width="3.2" height="18" rx="0.8"/><rect x="3.2" y="10.4" width="17.6" height="3.2" rx="0.8"/></svg>
+        </span>
+        <p class="footer-note">Halation Studio<br>Lisbon, Portugal</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <ul>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#approach">Approach</a></li>
+          <li><a href="#studio">Studio</a></li>
+          <li><a href="mailto:hello@halation.studio">Email</a></li>
+        </ul>
+      </nav>
+      <p class="colophon mono">Set in Newsreader &amp; Geist. <span data-year>2026</span> &copy; Halation Studio.</p>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
